@@ -1,0 +1,38 @@
+    1. Использование команды cat в Linux
+
+  820  cat > Pets.txt
+  821*  Pets.txt
+  822  cat > Pets.txt
+  823  cat Pets.txt
+  824  cat > PackAnimal.txt
+  825  cat  PackAnimal.txt
+  826  cat Pets.txt PackAnimal.txt > HumanFriends.txt
+  827  ls
+  828  cat humanfriends.txt
+  829  cat HumanFriends.txt
+  830  mv HumanFriends.txt HumanFriends.txt
+  831  mkdir animals
+  832  mv HumanFriends.txt animals/
+  833  ls
+  834  cd animals/
+  835  ls
+
+2. Работа с директориями в Linux
+
+  836  sudo apt-get update
+  837  cdc
+  838  cd
+  839  sudo dpkg i
+  840  sudo dpkg i ~/Загрузки/mysql-apt-config
+  841  dpkg --help
+  842  sudo dpkg i mysql-apt-config_0.8.32-1_all.deb
+  843  sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb
+  844  sudo dpkg -i ~/Загрузки/mysql-apt-config
+  845  sudo dpkg -i ~/Загрузки/mysql-apt-config_0.8.32-1_all.deb
+  846  sudo apt update
+  847  sudo apt install mysql-server mysql-client
+  848  sudo dpkg --remove mysql-client
+  849  sudo dpkg --remove mysql-server
+  850  sudo dpkg --remove mysql-client
+  851  history
+  852  history > history.log
